@@ -1,0 +1,55 @@
+#map_canvas {     
+      height: 100% !important;
+      width: 100% !important;
+      position: absolute;
+      top: 0px;
+      z-index: 1;
+}
+.side-panel{
+      width: 30%;
+      max-height: 90%;
+      border-radius:.5em;
+      overflow-y: auto;
+      background-color: white;
+      position: fixed;
+      margin-top: 60px;
+      margin-left: 30px;
+      padding: 30px;
+      padding-left: 35px;
+      z-index: 2;
+}
+.control-label{
+      font-size: 14px;
+      color: #262626;
+      font-weight: normal;
+}
+h4{
+      color: #262626;
+      font-weight: bold;
+}
+
+input[type="text"] {
+      border: solid 1px #dcdcdc;
+      transition: box-shadow 0.3s, border 0.3s;
+      border-radius:.5em;
+      display:block;
+       float: left;
+}
+input[type="email"] {
+      border: solid 1px #dcdcdc;
+      transition: box-shadow 0.3s, border 0.3s;
+      border-radius:.5em;
+      display:block;
+       float: left;
+}
+select[name="countryselect"] {
+      border: solid 1px #dcdcdc;
+      transition: box-shadow 0.3s, border 0.3s;
+      border-radius:.5em;
+      display:block;
+       float: left;
+}
+.btn-primary , .btn-default{
+      margin-top: 30px;
+      border-radius:.2em;
+}
